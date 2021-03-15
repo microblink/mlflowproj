@@ -5,6 +5,7 @@ package mlflow;
 import "scalapb/scalapb.proto";
 import "databricks.proto";
 
+option go_package = "github.com/microblink/mlflow/clients/go/mlflow";
 option java_package = "org.mlflow.api.proto";
 option py_generic_services = true;
 option (scalapb.options) = {
